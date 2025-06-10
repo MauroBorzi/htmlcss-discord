@@ -80,7 +80,7 @@ h2 {
 }
 
 p {
-  font-size: 0.8em;
+  font-size: 1em;
   padding-top: 15px;
 }
 
@@ -155,15 +155,25 @@ header ul li {
 }
 
 .pg-20 {
-  padding: 20px;
+  padding: 50px 0;
 }
 
 .pg-30 {
   padding: 30px 150px;
 }
 
-.pg-centraltext {
+.pg-starttext {
   padding: 40px 30px;
+}
+
+.pg-centraltext {
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.pg-finaltext {
+  padding-top: 10px;
+  padding-left: 25px;
 }
 
 .col-40 {
