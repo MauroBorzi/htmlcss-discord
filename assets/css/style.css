@@ -75,6 +75,15 @@ h1 {
   font-size: 3em;
 }
 
+h2 {
+  font-size: 2.2em;
+}
+
+p {
+  font-size: 0.8em;
+  padding-top: 15px;
+}
+
 .displayflex-botton {
   display: flex;
   justify-content: center;
@@ -150,7 +159,11 @@ header ul li {
 }
 
 .pg-30 {
-  padding: 30px 100px;
+  padding: 30px 150px;
+}
+
+.pg-centraltext {
+  padding: 40px 30px;
 }
 
 .col-40 {
