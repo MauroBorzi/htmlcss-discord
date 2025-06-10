@@ -16,7 +16,7 @@ body {
 
 .container-bsm {
   background-image: url(../img/jumbo.png);
-  object-fit: contain;
+  background-size: cover;
   padding: 50px 0px;
 }
 
@@ -47,10 +47,10 @@ body {
   background-color: white;
   border-radius: 15px;
   text-align: center;
-  padding: 5px 10px;
+  padding: 5px 15px;
   text-transform: capitalize;
-  width: 100px;
   margin-left: 60px;
+  cursor: pointer;
 }
 
 .box-white {
@@ -59,6 +59,7 @@ body {
   border-radius: 20px;
   padding: 10px 20px;
   margin-right: 25px;
+  cursor: pointer;
 }
 
 .box-lilla {
@@ -68,7 +69,7 @@ body {
   border-radius: 20px;
   margin-top: 40px;
   padding: 10px 20px;
-  width: 200px;
+  cursor: pointer;
 }
 
 .box-lilla2 {
@@ -76,40 +77,46 @@ body {
   color: white;
   border-radius: 20px;
   padding: 10px 20px;
-  width: 100px;
+  cursor: pointer;
 }
 
 .box-black {
   background-color: #23272a;
+  color: white;
   border-radius: 20px;
   padding: 10px 20px;
   margin-right: 25px;
+  cursor: pointer;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
 }
 
 h2 {
-  font-size: 2.2em;
+  font-size: 3.2em;
+  padding-bottom: 35px;
 }
 
 h3 {
-  font-size: 1.4em;
+  font-size: 2.4em;
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.2em;
   padding-top: 15px;
 }
 
+.max-width {
+  max-width: 100%;
+}
+
 .thumb {
-  padding-top: 30px;
-  vertical-align: middle;
+  padding-top: 15px;
+  width: 15px;
 }
 
 .italy {
-  vertical-align: middle;
   font-weight: bold;
 }
 
@@ -120,9 +127,9 @@ p {
 }
 
 .bg-img {
-  margin-left: 410px;
   background-image: url(../img/stars.svg);
-  width: 400px;
+  background-position: center;
+  margin: 20px 0;
 }
 
 .bg-grey {
@@ -172,7 +179,8 @@ header ul li {
 }
 
 .pg-30 {
-  padding: 30px 150px;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .pg-starttext {
@@ -239,4 +247,13 @@ header ul li {
 .col-34 ul li {
   font-size: 0.8em;
   padding-top: 10px;
+}
+
+.text-center.bg-img h3 {
+  font-size: 2em;
+}
+
+i {
+  padding-top: 10px;
+  padding-right: 10px;
 }

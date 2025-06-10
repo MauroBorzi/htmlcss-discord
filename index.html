@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>htmlcss-struttura-discord</title>
 </head>
@@ -23,7 +26,7 @@
         </ul>
       </div>
       <div class="col-20 text-right pg-20">
-        <div class="box">Accedi</div>
+        <button class="box">Accedi</button>
       </div>
     </div>
   </header>
@@ -33,19 +36,23 @@
     <section class="container-bsm">
       <div class="container-sm">
         <h1>Il tuo posto per parlare</h1>
-        <P class="pg-30">Che tu faccia parte di un club scolastico, gruppo di gamer, comunit&agrave; artistica modiale,
-          o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende pi&ugrave;
+        <P class="pg-30">Che tu faccia parte di un club scolastico, gruppo di gamer, comunit&agrave; artistica <br>
+          modiale,
+          o semplicemente di un piccolo gruppo di amici che vuole passare il tempo <br> assieme, Discord rende
+          pi&ugrave;
           facile chiaccherare ogni giorno e ritrovarsi pi&ugrave; spesso.</P>
         <div class="displayflex-botton">
-          <div class="box-white">&#8659; Scarica per Mac</div>
-          <div class="box-black">Apri Discord nel tuo browser</div>
+          <button class="box-white">&#8659; Scarica per Mac</button>
+          <button class="box-black">Apri Discord nel tuo browser</button>
         </div>
       </div>
     </section>
 
     <section class="bg-white">
       <div class="container pg-20">
-        <div class="col-60"><img src="./assets/img/item1.svg" alt="item1"></div>
+        <div class="col-60 max-width">
+          <img src="./assets/img/item1.svg" alt="item1">
+        </div>
         <div class="col-40 pg-starttext">
           <h2>Un luogo a <br> invito con tutto <br> lo spazio <br> necessario per <br> parlare</h2>
           <p>I server Discord sono organizzati in <br> canali tematic in cui puoi collaborare, <br> condividere o
@@ -62,7 +69,7 @@
           <P>Mettiti comodo in un canale vocale <br> quando hai tempo.Gli amici nel tuo <br> server possono vedere che
             sei l&igrave; e unirsi <br> istantaneamente senza dover chiamare.</P>
         </div>
-        <div class="col-60">
+        <div class="col-60 max-width">
           <img src="./assets/img/item2.svg" alt="item 2">
         </div>
       </div>
@@ -70,7 +77,7 @@
 
     <section class="bg-white">
       <div class="container pg-20">
-        <div class="col-60">
+        <div class="col-60 max-width">
           <img src="./assets/img/item3.svg" alt="item3">
         </div>
         <div class="col-40 pg-finaltext">
@@ -92,7 +99,7 @@
         <div class="text-center bg-img">
           <h3>Pronto a iniziare la tua avventura?</h3>
         </div>
-        <div class="box-lilla">&#8659; Scarica per Mac</div>
+        <button class="box-lilla">&#8659; Scarica per Mac</button>
       </div>
     </section>
 
@@ -106,6 +113,11 @@
             <li>
               <img src="./assets/img/ita.png" alt="bandiera italiana" class="thumb">
               <span class="italy">italiano &#11206;</span>
+              <br>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-youtube"></i>
             </li>
           </ul>
 
@@ -165,7 +177,7 @@
   <footer class="bg-black">
     <div class="footer-mod">
       <div class="bottom"><img src="./assets/img/logo.svg" alt="logo discord"></div>
-      <div class="box-lilla2">Registrati</div>
+      <button class="box-lilla2">Registrati</button>
     </div>
   </footer>
 
