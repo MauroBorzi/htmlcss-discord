@@ -39,7 +39,6 @@ body {
 
 .container-black {
   max-width: 1200px;
-  height: 500px;
   margin: 0px auto;
   display: flex;
 }
@@ -215,11 +214,29 @@ header ul li {
   justify-content: space-between;
   align-items: center;
   width: 1200px;
-  height: 80px;
   margin: 0 auto;
 }
 
 .bottom {
   font-size: 1.5em;
   text-transform: capitalize;
+}
+
+.col-15 ul li :first-child {
+  color: #7786d2;
+}
+
+.col-15 ul li {
+  font-size: 0.8em;
+  padding-top: 10px;
+}
+
+.col-34 ul li h3:first-child {
+  color: #7786d2;
+  font-size: 1.8em;
+}
+
+.col-34 ul li {
+  font-size: 0.8em;
+  padding-top: 10px;
 }
