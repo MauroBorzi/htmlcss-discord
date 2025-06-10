@@ -22,8 +22,6 @@ body {
 
 .container-bgreen {
   background-color: #d3d3d3;
-  padding: 50px 0px;
-
 }
 
 .container-sm {
@@ -36,8 +34,6 @@ body {
 
 .container-green {
   max-width: 1200px;
-  height: 900px;
-  background-color: #218b21;
   margin: 0 auto;
 }
 
@@ -52,8 +48,10 @@ body {
   background-color: white;
   border-radius: 15px;
   text-align: center;
-  padding: 5px 0;
+  padding: 5px 10px;
   text-transform: capitalize;
+  width: 100px;
+  margin-left: 60px;
 }
 
 .box-white {
@@ -62,6 +60,24 @@ body {
   border-radius: 20px;
   padding: 10px 20px;
   margin-right: 25px;
+}
+
+.box-lilla {
+  display: inline-block;
+  background-color: #8ea1e2;
+  color: white;
+  border-radius: 20px;
+  margin-top: 40px;
+  padding: 10px 20px;
+  width: 200px;
+}
+
+.box-lilla2 {
+  background-color: #8ea1e2;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 100px;
 }
 
 .box-black {
@@ -79,6 +95,10 @@ h2 {
   font-size: 2.2em;
 }
 
+h3 {
+  font-size: 1.4em;
+}
+
 p {
   font-size: 1em;
   padding-top: 15px;
@@ -90,20 +110,10 @@ p {
   padding-bottom: 50px;
 }
 
-.border-style {
-  border: 2px dashed black;
-}
-
-.border-right {
-  border-right: 3px dashed black;
-}
-
-.bg-pink {
-  background-color: #ffc0ca;
-}
-
-.bg-blue {
-  background-color: #1e90ff;
+.bg-img {
+  margin-left: 410px;
+  background-image: url(../img/stars.svg);
+  width: 400px;
 }
 
 .bg-grey {
@@ -119,16 +129,6 @@ p {
 .bg-black {
   background-color: #23272a;
   padding: 50px 0;
-}
-
-.bg-darkpink {
-  background-color: #f08180;
-  border: 2px dashed black;
-}
-
-.bg-aqua {
-  background-color: #20b3aa;
-  border: 2px dashed white;
 }
 
 header {
@@ -152,6 +152,10 @@ header ul li {
 
 .text-right {
   text-align: right;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .pg-20 {
@@ -196,14 +200,8 @@ header ul li {
   width: 20%;
 }
 
-.col-40.bg-pink,
-.col-60.bg-blue {
-  height: 500px;
-}
-
 .footer-mod {
   display: flex;
-  background-color: #7fffd4;
   justify-content: space-between;
   align-items: center;
   width: 1200px;
