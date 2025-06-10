@@ -104,6 +104,16 @@ p {
   padding-top: 15px;
 }
 
+.thumb {
+  padding-top: 30px;
+  vertical-align: middle;
+}
+
+.italy {
+  vertical-align: middle;
+  font-weight: bold;
+}
+
 .displayflex-botton {
   display: flex;
   justify-content: center;
